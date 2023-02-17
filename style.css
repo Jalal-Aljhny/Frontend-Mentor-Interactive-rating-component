@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #141519;
+  font-family: "Overpass", sans-serif;
+}
+.container {
+  padding: 20px;
+  width: 350px;
+  background-color: #212832;
+  border-radius: 20px;
+}
+::-moz-selection {
+  color: hsl(25, 97%, 53%);
+  background-color: #fff;
+}
+::selection {
+  color: hsl(25, 97%, 53%);
+  background-color: #fff;
+}
+.thank {
+  text-align: center;
+  display: none;
+}
+.thank .choise {
+  background-color: #262f38;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.thank .choise p {
+  color: hsl(25, 97%, 53%);
+}
+.rate .image {
+  background-color: #262f38;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.thank img {
+  margin-bottom: 25px;
+}
+h2 {
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 15px;
+  color: #747b85;
+  margin-bottom: 25px;
+  line-height: 1.8;
+}
+.thank p {
+  font-size: small;
+}
+.rate ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+.rate ul li {
+  background-color: #262f38;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #747b85;
+  transition-duration: 0.3s;
+}
+.rate ul li:hover {
+  background-color: #7c8898;
+  color: #fff;
+}
+.rate ul li.active {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+.rate button {
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 18px;
+  color: #fff;
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 auto 15px auto;
+  position: relative;
+  transition-duration: 0.3s;
+  border-radius: 25px;
+}
+.rate button:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+.attribution {
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(25, 97%, 53%);
+}
